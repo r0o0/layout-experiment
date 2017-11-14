@@ -1,0 +1,119 @@
+html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    -webkit-text-size-adjust: none;
+}
+
+body, button, input, select, table, textarea, pre {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    appearance: none;
+    /*-webkit-appearance: none;*/
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+    -webkit-text-size-adjust: none;
+    outline: none !important;
+    color: #000;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+  .productList .wrapper {
+    width: 100%;
+    padding: 0 32px;
+    background: gray;
+  }
+
+  .productList ul {
+   list-style: none;
+  }
+
+  li {
+    box-sizing: border-box;
+    width: 50%;
+    height: 302px;
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background: pink;
+  }
+
+  li a {
+    background: red;
+    display: block;
+    height: 302px;
+  }
+
+}
+
+@media screen and (min-width:1440px) and (max-width:1919px) {
+  .productList .wrapper {
+    width: 100%;
+    padding: 0 72px;
+    background: gray;
+  }
+
+  .productList ul {
+   list-style: none;
+  }
+
+  li {
+    box-sizing: border-box;
+    width: 33.333%;
+    height: 302px;
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background: pink;
+  }
+
+  li a {
+    background: red;
+    display: block;
+    height: 302px;
+  }
+}
+
+@media screen and (min-width:1920px) {
+  .productList .wrapper {
+    width: 100%;
+    padding: 0 72px;
+    background: gray;
+  }
+
+  .productList ul {
+   list-style: none;
+  }
+
+  li {
+    box-sizing: border-box;
+    width: 25%;
+    height: 302px;
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background: pink;
+  }
+
+  li a {
+    background: red;
+    display: block;
+    height: 302px;
+  }
+}
+
+
+
+
+/* clearfix */
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
